@@ -4,7 +4,6 @@ import java.util.*;
 
 public class Bombo {
     private Set<Bola> bolas;
-    private BolasSacadas bolasSacadas;
 
     public Bombo() {
         bolas = new LinkedHashSet<>();
