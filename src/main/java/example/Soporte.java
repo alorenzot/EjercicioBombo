@@ -2,7 +2,7 @@ package example;
 
 import java.util.*;
 
-public class Soporte {
+public class Soporte{
     private Comparator<Bola> BALL_COMPARATOR = new Comparator<Bola>() {
         @Override
         public int compare(Bola o1, Bola o2) {
@@ -37,6 +37,5 @@ public class Soporte {
 //        return aux2;
         return new ArrayList<>(new TreeSet<>(bolasSacadas));
     }
-    
 
 }
