@@ -12,6 +12,7 @@ public class Bombo {
         this();
         this.bolas.addAll(bolas);
     }
+
     public void addBall(Bola ball){
         bolas.add(ball);
     }
